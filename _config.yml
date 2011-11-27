@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: http://google.com/search
+url: http://gogojimmy.net
+title: Go Go Jimmy
+subtitle: Find a way to have a better life
+author: GoGo Jimmy
+simple_search: "http://google.com/search"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -15,7 +15,7 @@ simple_search: http://google.com/search
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: http://feeds.feedburner.com/GoGoJimmy
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -63,7 +63,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: gogojimmytwitt
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -71,12 +71,12 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: 114384787456301234251
 googleplus_hidden: false
 
 # Pinboard
@@ -88,11 +88,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: gogojimmy
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-22780415-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
