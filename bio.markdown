@@ -1,0 +1,15 @@
+---
+title: Bio
+layout: default
+---
+
+# About the Author
+
+我是郭啟賓，網路代號是 gogojimmy ，我是一名 developer，我使用 [Ruby on Rails][RoR] 做網站開發，熱愛學習新的技術，我在 [熱情豆行動樂活科技][Passionbean] 工作，有任何交流都歡迎寄信給我 <mailto:jimmy@gogojimmy.net>
+
+[Passionbean]:  http://www.passionbean.com
+[RoR]:          http://www.rubyonrails.org
+[ObjC]:         http://apple.com
+[vim]:          http://www.vim.org
+[vimmer]:       http://www.github.com/densitypop/vimmer
+[rspec]:        http://www.relishapp.com/rspec
