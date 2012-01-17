@@ -3,7 +3,7 @@ layout: post
 title: "在linode上架設Ubuntu+Nginx+Passenger+Rails環境"
 date: 2011-11-28 02:01
 comments: true
-author: Go Go Jimmy
+author: Jimmy Kuo
 categories:
 - Rails
 - VPS
