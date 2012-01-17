@@ -3,6 +3,7 @@ layout: post
 title: "新Blog開張，Octopress"
 date: 2011-11-28 16:31
 comments: true
+author: Jimmy Kuo
 categories: something
 ---
 
