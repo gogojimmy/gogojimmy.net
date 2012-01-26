@@ -8,6 +8,8 @@ categories: Rails
 ---
 剛開始寫Rails的時候，一個很基本的問題就是Path跟Url的分別，其實差別在於一個回傳的是相對路徑，而一個是絕對路徑而已，例如說假設今天我們有個叫做Product的Resource
 
+<!--more-->
+
 ``` ruby routes.rb
 resources :products
 ```

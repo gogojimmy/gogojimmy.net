@@ -15,6 +15,8 @@ categories: Git
 ## Git branch
 branch (分支)應該是 Git 最重要的技能了，在一個多人專案的開發過程中我們有時候要開發新功能，有時候是要修正某個Bug，有時候想要測試某個特異功能能不能 work ，這時候我們通常都會從主 branch 再開出一條新的 branch 來做，這支新開的 branch 會帶著你的主 branch 目前的最新狀態，當你完成你所要開發的新功能/ Bug 修正後確認沒問題就再把它 merge(合併)回主 Branch ，如此便完成了新功能的開發或是 Bug 的修正，因此每個人都可以從主 branch 拉一條新的 branch 來做自己想做的事，再來我們好好了解一下 branch 的使用。
 
+<!--more-->
+
 了解 branch 最好的方法就是有圖像可以看，你可以用任何你已安裝的GUI來查看，但在你安裝 Git 的時候其實同時也安裝了最基本的 Git GUI 叫做 gitk，你可以使用 `gitk --all` 這個指令來呼叫他，此時你應該能看到以下的畫面：
 
 ![gitk](https://lh3.googleusercontent.com/-0KUqcz4fH_I/TxMcZZU2VsI/AAAAAAAAA8Q/bNlXOjlN3NU/s640/2012-01-16_0233.jpg)

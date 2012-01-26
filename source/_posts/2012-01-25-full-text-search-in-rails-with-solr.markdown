@@ -11,6 +11,8 @@ categories: Rails, Solr
 ##Solr & Sunspot
 Solr 是一套建立在 [Lucene](http://lucene.apache.org/java/docs/) 搜尋引擎的工具，不用煩惱如何去操作複雜的 Lucene ，只需要透過 HTTP Request 來跟 Solr 溝通就好，非常的簡單易用，在 Rails 使用比簡單還要更簡單，因為我們有 [sunspot_rails](https://github.com/outoftime/sunspot) ，你不需要下載 Slor 來編譯執行他，因為 [sunspot_rails](https://github.com/outoftime/sunspot) 這套 gem 已經幫你包在裡面了，你只需要如同往常的將他加到 Gemfile ，然後 bundle install ，最後啟動它就完成了他所需要的動作，簡單到覺得寫篇文章來講彷彿都侮辱了他。
 
+<!--more-->
+
 ##設定及啟動 Solr：
 使用 sunspot_rails 非常簡單：
 
