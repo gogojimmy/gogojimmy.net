@@ -45,3 +45,5 @@ $ rvm reinstall 1.9.3 --with-gcc=clang
 重新下載編譯 [GCC GCC Installer for OSX 10.7+, Version 2](https://github.com/kennethreitz/osx-gcc-installer/downloads)
 
 然後就可以輕鬆的 `rvm install 1.9.3-p125` 了。
+
+![Success](https://lh3.googleusercontent.com/-6T1CNuz-D2Q/T0FDdB75zhI/AAAAAAAABEM/6H_FdBLZZUU/s800/14869308.jpg)
