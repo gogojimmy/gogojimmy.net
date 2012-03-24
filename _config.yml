@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://gogojimmy.net
-title: 趕流行部落格
-subtitle: 寫部落格好麻煩可是不寫又記不起來
+title: 好麻煩部落格
+subtitle:
 author: Jimmy Kuo
 simple_search: "http://google.com/search"
 
@@ -57,7 +57,7 @@ default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/gith
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: gogojimmy
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
