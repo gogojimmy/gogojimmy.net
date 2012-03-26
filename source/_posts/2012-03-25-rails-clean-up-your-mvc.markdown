@@ -7,8 +7,9 @@ categories: Rails
 ---
 
 這是重構系列的文章：
-* [[Rails] 設計模式：封裝](http://gogojimmy.net/Rails/rails-encapsulation/)
-* [Rails] 整理你的 MVC
+
+1. [[Rails] 設計模式：封裝](http://gogojimmy.net/Rails/rails-encapsulation/)
+2. [Rails] 整理你的 MVC
 
 Rails 是一個 MVC 架構的框架這大家都知道，但初接觸的新手 (像我) 一定還是不知道 Code 邏輯該怎麼放比較好，因此我們很容易就會寫出像下面這樣的 Code：
 
@@ -228,5 +229,6 @@ end
 有錯的地方歡迎指正！
 
 這是重構系列的文章：
-* [[Rails] 設計模式：封裝](http://gogojimmy.net/Rails/rails-encapsulation/)
-* [Rails] 整理你的 MVC
+
+1. [[Rails] 設計模式：封裝](http://gogojimmy.net/Rails/rails-encapsulation/)
+2. [Rails] 整理你的 MVC
