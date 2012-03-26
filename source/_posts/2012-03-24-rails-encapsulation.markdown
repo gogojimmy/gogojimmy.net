@@ -3,9 +3,16 @@ layout: post
 title: "[Rails] 設計模式：封裝"
 date: 2012-03-24 14:10
 comments: true
-categories: Rails
+categories: Rails, 重構
 ---
 寫 Rails 也有一段時間了，目前在 ihower 的建議下開始讀 [Rails AntiPatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) 這本書，練習重構自己的程式碼，接下來我想將是一系列的讀書心得。
+
+<!--more-->
+
+這是重構系列的文章：
+
+1. [Rails] 設計模式：封裝
+2. [[Rails] 整理你的 MVC](http://gogojimmy.net/Rails/rails-clean-up-your-mvc/)
 
 由於 Rails 本身是一個已經設計好的框架，我們在寫 Code 時不會像是 Java 般的需要考慮設計模式方面的問題，久而久之也容易寫出一些設計不好的 Code，物件導向的產生就是為了維持程式的彈性及可維護性，因此我們在寫 Code 時通常必須為了日後好維護而使用一些手法去包裝，例如下面這種情況：
 
@@ -115,3 +122,10 @@ end
 ```
 
 很明顯的可以看出來，在 Customer 中我們將一些方法 delegate 給 Address Model，而在 Invoice 中也將一些方法 delegate 給 Customer，並且加上了 `:prefix => true `的參數來產生 `customer_` 的 prefix，因此我們在 Invoice 的 instance variable 就可以使用 ‘@invoice.customer_street‘ 這樣的方法，我們一樣維持了 Law of Demeter，將物件資訊對外封裝，這樣的寫法跟上面落落長的 Code 是等價的，如果你還加上 `:allow_nil => true` 的參數的話表示像是在呼叫 `@invoice.customer_street` 時，customer 是 nil 的時候不會跳出 NoMethod Error 而是回傳 nil，感謝 Rails。
+
+有任何錯誤都歡迎指正！
+
+這是重構系列的文章：
+
+1. [Rails] 設計模式：封裝
+2. [[Rails] 整理你的 MVC](http://gogojimmy.net/Rails/rails-clean-up-your-mvc/)
