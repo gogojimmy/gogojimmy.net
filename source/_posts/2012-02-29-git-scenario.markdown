@@ -9,6 +9,8 @@ categories: Git
 ## Git 情境劇
 這篇主要是給自己做個記錄，因為 Git 指令實在太多了...
 
+<!--more-->
+
 * 如何安裝 Git
     * Mac : 安裝 [Homebrew](http://mxcl.github.com/homebrew/)
 
