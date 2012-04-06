@@ -4,6 +4,7 @@ title: "[Rails 重構] View-HTML 其實沒那麼難"
 date: 2012-03-30 13:59
 comments: true
 categories: Rails, AntiPatterns, Refactor
+published: false
 ---
 ##問題：不要學奇怪的 PHP
 
