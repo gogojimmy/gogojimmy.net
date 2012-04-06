@@ -4,6 +4,7 @@ title: "[Rails 重構] Model(3)-或許你根本並不需要一個 Model"
 date: 2012-03-30 13:58
 comments: true
 categories: Rails, Refactor, AntiPatterns
+published: false
 ---
 Rails 本身提供了 ActiveRecord 這套好用的 ORM，讓我們省去很多時間去處理繁瑣的資料細節，但是其實我們在設計一個 Web Application 的時候常會忽略了 Rails 本身提供的好用功能而去過度設計，這個章節的目的就是要避開這些過度的設計。
 

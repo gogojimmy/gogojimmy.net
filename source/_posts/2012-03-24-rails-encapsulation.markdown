@@ -4,6 +4,7 @@ title: "[Rails 重構] Model(1)-談談封裝"
 date: 2012-03-24 14:10
 comments: true
 categories: Rails, Refactor, AntiPatterns
+published: false
 ---
 寫 Rails 也有一段時間了，目前在 ihower 的建議下開始讀 [Rails AntiPatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) 這本書，練習重構自己的程式碼，接下來我想將是一系列的讀書心得。
 
