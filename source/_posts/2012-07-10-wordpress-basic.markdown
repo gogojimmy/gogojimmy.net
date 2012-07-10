@@ -66,6 +66,7 @@ categories: wordpress
 * 國外虛擬主機：
   * 國外虛擬主機排行評比 [free-webhosts.com](http://www.free-webhosts.com/)
   * [Bluehost](http://www.bluehost.com/)
+  * [Bytehost](http://www.byethost.com/)
   * [Host1Free](http://www.host1free.com/)
   * [Host1Plus](http://www.host1plus.com/)
 
@@ -84,3 +85,4 @@ categories: wordpress
 ## WordPress 的佈景主題
 * [WordPress themes](http://www.wpthemesfree.com/)
 * [themeforest](http://themeforest.net/)
+* [RocketTheme](http://www.rockettheme.com/)
