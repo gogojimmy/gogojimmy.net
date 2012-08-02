@@ -3,10 +3,13 @@ layout: post
 title: "懷念阿桑"
 date: 2012-04-06 18:20
 comments: true
+Author: Jimmy Kuo
 categories: Music, 阿桑
 ---
 
 我這個年代的人，應該沒有人沒聽過阿桑的葉子
+
+<!--more-->
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/Gk2oPC7o1aw" frameborder="0" allowfullscreen></iframe>
 

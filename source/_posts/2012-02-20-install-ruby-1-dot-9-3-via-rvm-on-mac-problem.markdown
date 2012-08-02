@@ -6,6 +6,9 @@ comments: true
 author: Jimmy Kuo
 categories: [掃雷, RVM, Ruby 1.9.3]
 ---
+
+<!--more-->
+
 ## 環境：
 
 * OS:Mac OSX 10.7

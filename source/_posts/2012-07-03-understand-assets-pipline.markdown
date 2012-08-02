@@ -3,10 +3,13 @@ layout: post
 title: "一次搞懂 Assets Pipeline"
 date: 2012-07-03 23:22
 comments: true
-categories: Rails, Assets Pipeline
+Author: Jimmy Kuo
+categories: [Rails, Assets Pipeline]
 ---
 
 Assets Pipeline 是 Rails 3.1 一個重要的功能，一直並沒有很去了解其特性，但因為最近都在寫前端的東西在 assets pipeline 的東西上跌跌撞撞了不少次(尤其在 deploy 上 production 後常爆炸，爆到我無處自容)，這篇就是好好研究後的心得以及筆記。
+
+<!--more-->
 
 ##Assets Pipeline 有什麼好處，不用會怎樣?
 

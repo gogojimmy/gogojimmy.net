@@ -3,11 +3,14 @@ layout: post
 title: "WordPress Basic"
 date: 2012-07-10 18:19
 comments: true
+Author: Jimmy Kuo
 categories: wordpress
 ---
 
 #基本架設步驟：
 要架設一個 WordPress 站台，基本有四個步驟，所有步驟可能會產生的資料，不論像是註冊網域時的資料，買空間給你的資料，請務必記得備份：
+
+<!--more-->
 
 * 空間(Hosting)
   1. 申請一個空間或是 VPS。
