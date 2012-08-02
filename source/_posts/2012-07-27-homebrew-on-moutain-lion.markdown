@@ -3,10 +3,13 @@ layout: post
 title: "安裝 Moutain Lion 後，一些掃雷步驟(Homebrew)"
 date: 2012-07-27 22:11
 comments: true
-categories:
+Author: Jimmy Kuo
+categories: [Moutain Lion, Homebrew]
 ---
 
 身為一個勇者，升級作業系統永遠都是搶第一的，當然免不了遇到地雷炸一下，大概掃了一下雷後，分享一下我的山獅更新步驟。
+
+<!--more-->
 
 1. 從 App Store 下載安裝山獅。
 2. 從 App Store 更新你的 Xcode，更新完畢後在設定 > 下載 > 安裝 Command Line Tools

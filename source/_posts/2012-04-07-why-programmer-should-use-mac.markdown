@@ -3,6 +3,7 @@ layout: post
 title: "寫程式該選 Mac 還是 PC ?"
 date: 2012-04-07 15:29
 comments: true
+Author: Jimmy Kuo
 categories: Mac
 ---
 
