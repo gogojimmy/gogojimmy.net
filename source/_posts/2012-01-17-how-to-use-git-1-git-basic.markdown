@@ -9,8 +9,8 @@ categories: Git
 
 這是一篇系列教學文：
 
-1. [Git 教學(1)：Git的基本使用](http://gogojimmy.net/Git/how-to-use-git-1-git-basic/)
-2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://gogojimmy.net/Git/how-to-use-git-2-basic-usage-and-worflow/)
+1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
+2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
 
 ## 前言
 Git 是一套分散式的版本控制系統，版本控制是一個開發團隊中不可或缺的工具，Git 最強大的一個特點就是可以無窮無盡的開 branch (分支)，好處就是今天不論是修 Bug ，開發新功能，或是研究 feature 都非常的方便，學 Git 到現在大概三個月的時間讓我體會到" Git 用的好，產品開發沒煩惱!!" ，搭配 Github (一個以 Git 作為基礎的程式碼社群服務，上面有非常多的資源)使用更是天下無敵，團隊開發怎麼能少的了用 Git 呢！！！！

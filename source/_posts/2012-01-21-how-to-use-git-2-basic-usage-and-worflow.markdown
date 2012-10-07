@@ -9,7 +9,7 @@ categories: Git
 
 這是一篇系列教學文：
 
-1. [Git 教學(1)：Git的基本使用](http://gogojimmy.net/Git/how-to-use-git-1-git-basic/)
+1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 2. Git 教學(2)：Git Branch 的操作與基本工作流程
 
 ## Git branch
