@@ -11,6 +11,7 @@ categories: Git
 
 1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
+3. [Git 情境劇：告訴你使用 Git 時什麼情況該下什麼指令](http://blog.gogojimmy.net/2012/02/29/git-scenario/)
 
 ## 前言
 Git 是一套分散式的版本控制系統，版本控制是一個開發團隊中不可或缺的工具，Git 最強大的一個特點就是可以無窮無盡的開 branch (分支)，好處就是今天不論是修 Bug ，開發新功能，或是研究 feature 都非常的方便，學 Git 到現在大概三個月的時間讓我體會到" Git 用的好，產品開發沒煩惱!!" ，搭配 Github (一個以 Git 作為基礎的程式碼社群服務，上面有非常多的資源)使用更是天下無敵，團隊開發怎麼能少的了用 Git 呢！！！！
@@ -270,3 +271,9 @@ log/*.log
 
 ###Tips: 被加入 gitignore 的檔案一樣出現在 status 中？
 **有時候你會發現即時你將檔案加入了 `.gitignore` 卻一樣會出現在 Git 的追蹤狀態中，這是由於你想要忽略的檔案之前已經被 Git 追蹤了，因此你現在想要讓 Git 忽略他的話只能先將他刪除然後再 commit 一次，再來這支檔案再出現就不會再追蹤這支檔案了。**
+
+* 其他連結：
+
+1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
+2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
+3. [Git 情境劇：告訴你使用 Git 時什麼情況該下什麼指令](http://blog.gogojimmy.net/2012/02/29/git-scenario/)

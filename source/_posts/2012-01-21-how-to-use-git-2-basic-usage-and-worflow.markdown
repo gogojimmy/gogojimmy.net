@@ -10,7 +10,8 @@ categories: Git
 這是一篇系列教學文：
 
 1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
-2. Git 教學(2)：Git Branch 的操作與基本工作流程
+2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
+3. [Git 情境劇：告訴你使用 Git 時什麼情況該下什麼指令](http://blog.gogojimmy.net/2012/02/29/git-scenario/)
 
 ## Git branch
 branch (分支)應該是 Git 最重要的技能了，在一個多人專案的開發過程中我們有時候要開發新功能，有時候是要修正某個Bug，有時候想要測試某個特異功能能不能 work ，這時候我們通常都會從主 branch 再開出一條新的 branch 來做，這支新開的 branch 會帶著你的主 branch 目前的最新狀態，當你完成你所要開發的新功能/ Bug 修正後確認沒問題就再把它 merge(合併)回主 Branch ，如此便完成了新功能的開發或是 Bug 的修正，因此每個人都可以從主 branch 拉一條新的 branch 來做自己想做的事，再來我們好好了解一下 branch 的使用。
@@ -251,3 +252,9 @@ HEAD is now at c126ff9 Config initialze
 
 ### git reset, hard 與 soft 的差異
 你可能會在這邊感到疑惑，在使用 `git reset` 的時候都會看到一個 soft 或是 hard 的參數，這代表什麼樣的意義？基本上在使用 `git reset` 的時候，都會把目前狀態回復到你想回復的版本，但若是不加參數的情況，會把你做過的修改仍然保留，但是，若是加上 --soft 參數，則會把做過的修改加入 stage ，若是加上 hard 參數的話則是把做過的修改完全刪除，回到那個版本原本的樣子。
+
+* 其他連結：
+
+1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
+2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
+3. [Git 情境劇：告訴你使用 Git 時什麼情況該下什麼指令](http://blog.gogojimmy.net/2012/02/29/git-scenario/)
