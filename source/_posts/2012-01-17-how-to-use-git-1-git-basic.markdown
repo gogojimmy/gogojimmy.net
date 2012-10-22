@@ -91,7 +91,7 @@ Initialized empty Git repository in /Users/Jimmy/Projects/Animal/.git/
 
 	$ git clone https://gogojimmy@github.com/gogojimmy/Animal.git monkey
 
-這樣子下載下來的 Repository 的名稱就會從原本的 Animal 變成 monket 了。
+這樣子下載下來的 Repository 的名稱就會從原本的 Animal 變成 monkey 了。
 
 ## Git的基本功(status, add, commit, log, .gitignore)
 在一個 Git 的 Repository 中你可以輸入`git status`來檢查目前 Git 的狀態
