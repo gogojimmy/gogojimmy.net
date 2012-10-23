@@ -21,8 +21,8 @@ config.assets.enabled = false
 
 但是 Assets Pipeline 有著許多優良的好處，幫助你處理的過去一些需要由第三方元件來處理的事情，像是：
 
-* 將所有的 js 或是 css 壓縮打包成單一檔案，減少 http request 的大小，增加你網站的效能及速度。
-* 支援像是 scss 及 coffee 這樣的 higher-lever 語言，你可以用更簡單更棒的方式來寫 css 及 js。
+* 將所有的 js 或是 css 壓縮打包成單一檔案，減少 http request 的大小與數量，增加你網站的效能及速度。
+* 支援像是 SCSS 及 CoffeeScript 這樣的 high-lever 語言，你可以用更簡單更棒的方式來寫 css 及 js。
 * 取代原先不可靠的 query string 改用 MD5 的 fingerprint，query string 的用意在於當檔案內容更動的時候也會一併更動檔案的 query string，這樣可以分辨檔案是否有更動過，因此客戶端可以保留快取並比對自己擁有的版本以及伺服器上的版本是否一致，減少每次的 request，無奈 query string 的作法還是有些問題，像是在部分 CDN 上根本不會快取、在多伺服器的環境中檔案名稱可能會變動、以及許多無效的 cache 問題，因此在 Rails 3.1 改使用 MD5 的 Fingerprinting 來解決了這個問題。
 
 Assets Pipeline 的功能主要由兩個重要的元件提供：[Sprockets](https://github.com/sstephenson/sprockets) 以及 [Tilt](https://github.com/rtomayko/tilt)。Sprockets 用來從你的 assets 路徑中打包壓縮你所有的 assets 後包裝成一個檔案，然後放到你目的地路徑(`public/assets`)，而 Tilt 主要是一個樣板引擎，用來讓 Sprockets 可以去解析像是 SCSS、CoffeeScript 或是 ERB 等各種樣板，你可以參考 [Tilt 的 Readme](https://github.com/rtomayko/tilt/blob/master/README.md) 來了解支援哪些樣板。
@@ -34,7 +34,7 @@ Assets Pipeline 的功能主要由兩個重要的元件提供：[Sprockets](http
 * `lib/assets`(通常是我們所使用的套件中去用到的 assets)
 * `vendor/assets`(通常是放一些我們從別的地方借用的 assets，例如說一些 jQuery 的套件)
 
-這三個目錄，在預設情況下這三個資料夾的東西是共通的(因為都會被打包成一個檔案)，你可以把你的 rails app 跑起來後在 `http://localhost:3000/assets/application.js` 中看到你所有的 js 都在這支檔案中，css 同理亦然，你可以在 console 中輸入 `Rails.application.config.assets.paths` 來查看所有的 assets 路徑。你可以發現，除了原本我們剛剛說的三個 assets 目錄之外，還出現了包含在我們 GemFile 中的 jquery，這代表你的 assets 現在也可以包成 gem 來用，如果你有很多個 projects 常重複使用一些共通的 assets，不妨考慮包成 gem 來使用，方便又愉快。
+這三個目錄，在預設情況下這三個資料夾的東西是共通的(因為都會被打包成一個檔案)，你可以把你的 rails app 跑起來後在 `http://localhost:3000/assets/application.js` 中看到你所有的 js 都在這支檔案中，css 同理亦然，你可以在 terminal 中輸入 `Rails.application.config.assets.paths` 來查看所有的 assets 路徑。你可以發現，除了原本我們剛剛說的三個 assets 目錄之外，還出現了包含在我們 GemFile 中的 jquery，這代表你的 assets 現在也可以包成 gem 來用，如果你有很多個 projects 常重複使用一些共通的 assets，不妨考慮包成 gem 來使用，方便又愉快。
 
 ##Assets 的載入
 再來是 assets 目錄下的檔案 import 方式，以 `app/asset/javascripts/application.js` 這支檔案為例，這是一支 manifest 檔案，主要用來告訴 Sprockets 說哪些檔案是要被載入最後要被包起來壓縮的，最後這支檔案裡面所有的東西就會被包成 `application.js` 這支檔案，也是我們 `layout/application.html.erb` 中的 `javascript_include_tag 'application'` 中的檔案，打開這支檔案除了上面的說明外只有這三行：
