@@ -21,6 +21,8 @@ Vagrant背後用的是Virtual Box作為虛擬機器，Vagrant只是一個讓你�
 $ gem install vagrant
 ```
 
+> Vagrant 1.1後已經不支援使用Gem來安裝了，據說是因為Dependecy太多他受不了了，詳細可以參考他們的[說明](http://mitchellh.com/abandoning-rubygems)，感謝ihower的提示
+
 ## 開始使用Vagrant 新增作業系統
 當你已經安裝好Virtual Box以及Vagrant後，你要開始思考你想要在你的VM上使用什麼作業系統，一個打包好的作業系統環境在Vagrant稱之為Box，也就是說每個Box都是一個打包好的作業系統環境，當然網路上什麼都有，你不用自己去找作業系統，[vagrantbox.es](vagrantbox.es)上面就有許多大家熟知且已經打包好的作業系統，你只需要下載就可以了，為你的Vagrant增加一個Box很簡單
 
