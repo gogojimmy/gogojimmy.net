@@ -26,6 +26,19 @@ new_post_ext    = "markdown"  # default new post file extension when using the n
 new_page_ext    = "markdown"  # default new page file extension when using the new_page task
 server_port     = "4000"      # port for preview server eg. localhost:4000
 
+## -- PDF Generate settings -- ##
+pdf_builder     = 'pandoc'
+pdf_builder_flags = "--latex-engine=xelatex --template=templates/pdf-template.tex --listings"
+pdf_dir         = "pdf"
+
+desc "Generate PDF"
+task :pdf, :file do |t, args|
+   unless File.exist?(args.file)
+     abort("rake aborted! File does not exist")
+   end
+   file_name = File.basename(args.file, "markdown")
+   system "#{pdf_builder} #{pdf_builder_flags} #{args.file} -o #{pdf_dir}/#{file_name}.pdf"
+end
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
