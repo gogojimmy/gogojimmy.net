@@ -5,8 +5,6 @@ date: 2013-06-01 03:53
 comments: true
 categories: chef-solo vagrant deploy
 ---
-# [Rails佈署實戰教學]使用Chef-Solo一鍵安裝機器
-
 
 這大概會是連續800篇的連載文章，當然就是循序漸進的從安裝一台server到安裝50000台server這麼複雜，首先我想先從最基本的裝機器開始說，因為在以前他一直是我的軟肋。
 
@@ -449,8 +447,14 @@ Q：既然`knife-solo`這麼方便，為什麼不一開始跟大家說這個就�
 
 A：難道你以為我打字有比較輕鬆嗎？我這都是為了讓你更能仔細了解Chef的檔案結構啊，如此用心良苦你是不是應該移動你的滑鼠去下面幫我點個廣告呢？
 
+Q：你這篇文章實在太長了，要看完實在很累，下次可以寫短一點嗎？
+
+A：我很貼心的準備了[PDF版本下載](http://bit.ly/chef-solo-basic)，讓你可以下載到iPad慢慢看。
+
 ## 實用連結及參考資訊
 
 * [knife-solo](http://matschaffer.github.io/knife-solo/ )
 * [chef-solo-basic](http://devops.mashion.net/2011/08/04/chef-solo-basics/ )
+
+
 
