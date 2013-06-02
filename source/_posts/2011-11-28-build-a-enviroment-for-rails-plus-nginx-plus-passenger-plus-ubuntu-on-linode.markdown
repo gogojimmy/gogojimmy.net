@@ -10,6 +10,8 @@ categories:
 ---
 這是我租用了Linode的VPS後，在上面架設一個deploy用的Rails環境的一些筆記，為什麼使用Ubuntu 10.04 LTS的版本單純是因為之前用過，覺得沒什麼特別問題因此使用。
 
+<!-- more -->
+
 ###環境
 ---
 **OS**: Ubuntu 10.04 LTS
@@ -19,8 +21,6 @@ categories:
 **Ruby**: 1.9.2-p290
 
 **Rails**: 3.1.3
-
-<!--more-->
 
 ###更新系統
 ---
