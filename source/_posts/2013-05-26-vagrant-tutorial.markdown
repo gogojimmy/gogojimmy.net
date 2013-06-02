@@ -8,6 +8,9 @@ categories:
 
 最近對Rails的佈署有更深一層的體悟，打算花點時間將佈署心得整理成文章，預計大概會在2050年前完成這部大作，這邊決定先發布序章，就是教你怎麼使用Vagrant來打造自己的測試機器。
 
+<!-- more -->
+
+
 ## 為什麼要用Vagrant
 
 答案很簡單，因為開遠端機器練習佈署或是機器架構又慢又麻煩又要錢，而且玩壞了或是環境髒了又得重灌又很慢，如果你想我一樣最近在玩Chef-Server，實驗多機器環境架構，例如一台Web Load Balancer、5台Application Server、1台Master Database + 1台Slave Database、1台Data Analytics Server、1台 Service Monitor Server，1台Redis Server，聽起來有沒有很牛，但這一切都只要在你那台用來開發的電腦就做的到，告訴我為何你還不用Vagrant呢？

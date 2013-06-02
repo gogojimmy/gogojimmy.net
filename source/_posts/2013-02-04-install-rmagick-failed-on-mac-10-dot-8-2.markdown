@@ -8,6 +8,9 @@ categories: ruby gem rails rmagick
 
 [Rmagick](https://github.com/rmagick/rmagick)是一個用Ruby寫成與[ImageMagick](http://www.imagemagick.org/script/index.php)溝通的界面，基本上只要有寫上傳圖片的功能就少不了他啊，今天在安裝一個新環境時照著平常以往的步驟安裝竟然一直失敗，奮力掃雷後來分享一下...
 
+<!-- more -->
+
+
 失敗的步驟：
 
 ```

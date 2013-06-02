@@ -9,11 +9,11 @@ categories: Git
 ## Git 情境劇
 這篇主要是給自己做個記錄，因為 Git 指令實在太多了...
 
+<!-- more -->
+
 1. [Git 教學(1)：Git的基本使用](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 2. [Git 教學(2)：Git Branch 的操作與基本工作流程](http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/)
 3. [Git 情境劇：告訴你使用 Git 時什麼情況該下什麼指令](http://blog.gogojimmy.net/2012/02/29/git-scenario/)
-
-<!--more-->
 
 * 如何安裝 Git
     * Mac : 安裝 [Homebrew](http://mxcl.github.com/homebrew/)
