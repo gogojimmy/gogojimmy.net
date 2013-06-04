@@ -364,7 +364,7 @@ Checking Chef version...
 [2013-05-31T19:03:32+00:00] INFO: Report handlers complete
 ```
 
-這時候你在打開瀏覽器連線，你會發現已經成功上線了，一切都是那麼沒好，第一次做完的時候我興奮的立馬把VM殺掉直接重新跑`knife solo bootstrap`，結果就會是這樣：
+這時候你在打開瀏覽器連線，你會發現已經成功上線了，一切都是那麼美好，第一次做完的時候我興奮的立馬把VM殺掉直接重新跑`knife solo bootstrap`，結果就會是這樣：
 
 ``` bash
 $ knife solo bootstrap vagrant@33.33.33.10
