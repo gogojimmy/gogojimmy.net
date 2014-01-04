@@ -27,8 +27,14 @@ single: true
 </article>
 {% if site.disqus_short_name and page.comments == true %}
   <section>
-    <h1>留言</h1>
+    <h1>Comments</h1>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+  </section>
+{% endif %}
+{% if site.juvia_site_key and page.comments == true %}
+  <section>
+    <h1>Comments</h1>
+    <div id="juvia_thread" aria-live="polite">{% include post/juvia_thread.html %}</div>
   </section>
 {% endif %}
 </div>
