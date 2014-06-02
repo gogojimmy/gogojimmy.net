@@ -16,11 +16,11 @@ $header-subtitle-font-family: $serif !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: 2.2em;
+  font-size: 3.125em;
   @extend .heading;
   font-family: $header-title-font-family;
-  font-weight: normal;
-  line-height: 1.2em;
+  line-height: 4.345em;
+  font-weight: 700;
   margin-bottom: 0.6667em;
 }
 body > header h2 {
@@ -28,13 +28,15 @@ body > header h2 {
 }
 
 body {
-  line-height: 1.5em;
+  line-height: 1.875em;
+  font-weight: 100;
   color: $text-color;
   @extend .serif;
 }
 h1 {
-  font-size: 2.2em;
-  line-height: 1.2em;
+  font-size: 3.125em;
+  line-height: 4.345em;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 992px) {

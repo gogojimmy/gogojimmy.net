@@ -8,8 +8,8 @@ html {
 }
 
 body {
-	font-family: $sans !important;
-	font-size: 1em;
+	font-family: $serif !important;
+	font-size: 1.125em;
 	max-width: 850px;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
@@ -116,7 +116,7 @@ article {
 	header {
 		h1.entry-title {
 			font-family: $heading-font-family;
-			font-weight: 400;
+			font-weight: 700;
 		}
 	}
 }
@@ -159,8 +159,7 @@ article {
 	.hentry {
 		h1.entry-title {
 			font-family: $heading-font-family;
-			font-weight: 400;
-			font-size: 2.2em;
+			font-weight: 700;
 		}
 	}
 	
